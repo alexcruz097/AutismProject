@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* navbar styles  */
+.container-fluid{
+    background-color: blueviolet;
+  
+   
+}
+.navbar-brand img{
+    width: 9rem;
+      border: 4px solid #57415e;
+}
+.navbar{
+   display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.collapse{
+margin-left: 40vw;
+}
+#navbarsExample09{
+    margin-right: auto;
+}
+
+.navbar-nav li{
+background-color: coral;
+margin: 0 .4rem;
+
+border-radius: 7px;
+}
+.navbar-nav li a{
+color: black;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.navbar-nav li:hover{
+transform: scale(1.1,1.1);
+
+
+}
+/* End of navbar styles */
+
+/* header */
+.main-header{
+    background-color: #2badbe;
+    color: white;
+    height: 65vh;
+    margin-top: 5.3rem;
+}
+.main-header h4{
+    font-weight: 300;
+}
+.header-color{
+    color:rgb(255, 108, 55);
+}
+.main-background{
+     height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.2)),
+    url("./images/puzzle.jpg");
+
+  /* Image is centered vertically and horizontally at all times */
+  background-position: 50% center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: #464646;
+}
+.row img{
+    width: 100%;
+}
+
+/* cards */
+.row img{
+    height: 30rem;
+}
+.preface-container{
+    background-color:aqua ;
+    color: lemongreen;
+    color: #272727;
+}
+.cause-container{
+    background-color:aqua;
+}
+.treatment-container{
+    background-color: #00ffff;
+}
+/* coping */
+
+.coping-btn button{
+    background-color: #1B78F4;
+    transition: all .3s ease-in-out;
+}
+.coping-btn button a{
+    text-decoration: none;
+    text-transform: capitalize;
+ 
+
+}
+.coping-btn button:hover{
+    background-color: #8a2be2;
+    transform: scale(1.2,1.2);
+}
+/* map */
+.map-container{
+    background-color: #2badbe;
+    padding:10rem 0;
+}
+.map-inner{
+    background-color: white;
+    border-radius: 3rem;
+    width: 67%;
+    margin: auto;
+    padding: 5rem 1rem;
+ 
+ 
+}
+.map-inner h1{
+    color: coral;
+}
+#map{
+  width: 100%;
+ height: 17rem;
+   
+}
+/* footer */
+.footer-container{
+    background-color: #57415e;
+    padding: 1.7rem 0;
+}
+footer{
+    color: white;
+}
+.social img{
+width: 2rem;
+margin: 0rem .4rem;
+}
+@media screen and (max-width: 768px) {
+/* navbar styles  */
+
+.navbar-brand img{
+    width: 8rem;
+}
+.navbar-nav{
+    margin-left: auto;
+ 
+}
+.navbar-nav li{
+background-color: coral;
+margin: 0 .4rem;
+width: 17rem;
+margin: auto;
+border-radius: 1rem;
+margin-top: 1rem;
+
+}
+
+.navbar-nav li a{
+
+color: white;
+}
+.navbar-toggler-icon{
+    color: black;
+}
+
+}
