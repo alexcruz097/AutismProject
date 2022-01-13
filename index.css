@@ -143,6 +143,24 @@ color: rgb(54, 54, 54);
  height: 17rem;
    
 }
+/* form */
+/* aside {
+background-color: #1B78F4;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    width: 20em;
+    border: 1px solid rgb(68, 11, 126);
+    margin: auto;
+    margin-top: 2em;
+    background: #ddd;
+  }
+
+
 /* footer */
 .footer-container{
     background-color: #57415e;
