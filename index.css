@@ -174,7 +174,7 @@ background-color: aqua;
     padding: 1.7rem 0;
 }
 footer{
-    color: white;
+    color: rgb(34, 193, 233);
 }
 .social img{
 width: 2rem;
@@ -208,4 +208,7 @@ color: white;
     color: black;
 }
 
+}
+h4{
+    text-align: right;
 }
