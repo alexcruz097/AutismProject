@@ -144,9 +144,9 @@ color: rgb(54, 54, 54);
    
 }
 /* form */
-/* aside {
-background-color: #1B78F4;
-} */
+ aside {
+background-color: aqua;
+}
 
 .container {
     display: flex;
@@ -154,13 +154,20 @@ background-color: #1B78F4;
     align-items: center;
     height: 30em;
     width: 20em;
-    border: 1px solid rgb(68, 11, 126);
+    border: 10px solid #57415e;
     margin: auto;
     margin-top: 2em;
-    background: #ddd;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.2)),
+    url("./images/puzzle.jpg");
   }
-
-
+.submit-button {
+    background-color: coral;
+    margin: 0 .4rem;
+    width: 17rem;
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
 /* footer */
 .footer-container{
     background-color: #57415e;
